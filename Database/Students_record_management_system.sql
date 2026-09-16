@@ -29,7 +29,7 @@ SELECT * FROM Students;
 
 -- /importing the data into the table/
 
-LOAD DATA LOCAL INFILE '/Users/ishratshaikh/Desktop/Advanced_Programming/student_dataset_v1.csv'
+LOAD DATA LOCAL INFILE 'Dataset/student_dataset_v1.csv'
 INTO TABLE Students
 FIELDS TERMINATED BY ','  -- CSV delimiter
 ENCLOSED BY '"'           -- Enclosing character for text (optional)
